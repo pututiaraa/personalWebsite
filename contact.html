@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact Me</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="skill.html">Skill</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+        <style>
+            body {
+                background-image: linear-gradient(to left, rgb(240, 201, 183) 0%, rgb(221, 130, 77)100%) ;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="form">
+            <form>
+                <fieldset>
+                    <span class="contact"><h1 align="center">Contact Me</h1></span>
+                    <label>
+                        Name
+                        <input type="text" placeholder="Name"/>
+                    </label>
+                    <label>
+                        Email
+                        <input type="email" placeholder="Email"/>
+                    </label>
+                    <label>
+                        Message
+                        <textarea placeholder="Your Message"></textarea>
+                    </label>
+                    <input id="send" type="submit" value="Send" />
+            </form>
+        </div>
+    </body>
+</html>
